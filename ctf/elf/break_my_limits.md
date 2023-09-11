@@ -1,0 +1,1 @@
+just had to open the file in a hex editor and found the print statements and the sictf flag in it after scrolling for a while

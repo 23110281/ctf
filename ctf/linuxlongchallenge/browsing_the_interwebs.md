@@ -1,0 +1,1 @@
+had to `cat` the `var/log/messages` file again and grep for firefox and it worked

@@ -1,0 +1,1 @@
+i had found the the string with the flag very early but was trying weird ways to decode it instead of simple decimal to ascii so it took a lot of wrong submissions.

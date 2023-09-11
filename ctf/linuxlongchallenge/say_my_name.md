@@ -1,0 +1,1 @@
+i `cat`d the `etc/fstab` file to get the uuid of root partition as its mount point is `/` in fstab
