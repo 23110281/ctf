@@ -2,7 +2,8 @@ unziped the file using `unzip` and found it was recursively creating new files s
 opened up the zip file in a text editor and searched for flag and found that it was there after a while (~12000) lines so i wrote to script to unzip the files inf which i quickly realised would make the storage burst as it was 1.8 mb each file so i updated the script to delete the file and then added a 0.1 sec wait so my cpu doesn't overheat and waited approx 20 mins (12000x0.1) for it to reach the flag and then stopped it when it reached the flag.txt (which i found from file.txtUT and rando.zipUT), i used cgpt to create the script
 
 here's the script
-`#!/bin/bash
+```
+#!/bin/bash
 while true; do
     if [ -e "flag.txt" ]; then
         echo "Found 'flag.zip'. Stopping the script."
@@ -26,4 +27,4 @@ while true; do
     # Sleep for a while (0.5 seconds in this case)
     sleep 0.1
 done
-`
+```
